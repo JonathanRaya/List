@@ -1,0 +1,39 @@
+body {
+  background-image: url(https://i.postimg.cc/FzcvPFTf/store.jpg);
+  margin: 0;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app{
+  border-radius: 5vh;
+  background-color: white;
+  width: 150vh;
+  height: 1000vh;
+}
+.header{
+  display: flex;
+  justify-content: center;
+}
+.input-box{
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  margin-bottom: 2vh;
+}
+.items{
+  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+button {
+  border-radius: 5px;
+}
+
+.delete{
+  margin-left: 1.5vh;
+}
